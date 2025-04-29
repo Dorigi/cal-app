@@ -27,7 +27,7 @@ export default function Home() {
       setDisplay(result.toString());
       setEquation('');
       setIsNewNumber(true);
-    } catch (error) {
+    } catch (_) {
       setDisplay('Error');
       setEquation('');
       setIsNewNumber(true);
